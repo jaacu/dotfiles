@@ -15,3 +15,4 @@ alias ngrok="~/Downloads/ngrok"
 alias please="sudo"
 alias lsearch="ll | grep"
 alias start-venv="source .venv/bin/activate"
+alias docker-ngrok="docker run --rm -it --net=host wernight/ngrok ngrok http" # add localhost:port at the end

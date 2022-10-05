@@ -1,5 +1,29 @@
 {
+    "workbench.iconTheme": "vscode-icons",
+    "[php]": {
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "editor.formatOnSave": false,
+    "[terraform]": {
+      "editor.defaultFormatter": "hashicorp.terraform"
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+      "default": "right",
+      "jupyter-notebook": "left"
+    },
     "files.associations": {
-        ".gitconfig.*": "properties"
-    }
-}
+      ".gitconfig.*": "properties",
+      ".env.*": "dotenv"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.stickyScroll.enabled": true
+  }
+  
